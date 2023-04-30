@@ -1,0 +1,10 @@
+.card__links {
+  min-height: 46px;
+  align-self: flex-end;
+}
+
+@media (max-width: 640px) {
+  .card__links {
+    padding: 0 16px;
+  }
+}

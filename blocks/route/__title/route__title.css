@@ -1,0 +1,37 @@
+.route__title {
+  margin: 0 0 32px;
+  max-width: 720px; /*Так как заголовок занимает не всю доступную ширину*/
+
+  font-size: 96px;
+  line-height: 104%;
+  font-weight: 900;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .route__title {
+    max-width: 560px;
+
+    font-size: 80px;
+    line-height: 106%;
+  }
+}
+
+@media (max-width: 560px) {
+  .route__title {
+    max-width: 425px;
+
+    font-size: 60px;
+    line-height: 108%;
+  }
+}
+
+@media (max-width: 425px) {
+  .route__title {
+    max-width: 288px;
+    margin-bottom: 16px;
+
+    font-size: 40px;
+    line-height: 110%;
+  }
+}

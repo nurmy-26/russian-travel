@@ -1,0 +1,32 @@
+.trains__subtitle {
+  margin: 0;
+  max-width: 360px;
+
+  font-size: 18px;
+  line-height: 122%;
+}
+
+@media (max-width: 700px) {
+  .trains__subtitle {
+    font-size: 16px;
+    line-height: 120%;
+  }
+}
+
+@media (max-width: 560px) {
+  .trains__subtitle {
+    max-width: 320px;
+
+    font-size: 16px;
+    line-height: 116%;
+  }
+}
+
+@media (max-width: 500px) {
+  .trains__subtitle {
+    max-width: 288px;
+
+    font-size: 14px;
+    line-height: 114%;
+  }
+}

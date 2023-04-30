@@ -1,0 +1,17 @@
+.hover {
+  text-decoration: none;
+  color: #fff;
+
+  transition: opacity .35s ease-out;
+}
+
+.hover:hover {
+  opacity: .8;
+}
+
+/* При наведении на текст меняется прозрачность соседнего блока overlay, который слоем ниже */
+.hover:hover + .trains__overlay {
+  opacity: .8;
+}
+
+

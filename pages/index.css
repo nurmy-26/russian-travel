@@ -1,0 +1,56 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../blocks/page/page.css);
+@import url(../blocks/content/content.css);
+@import url(../blocks/always-padding/always-padding.css);
+@import url(../blocks/margin-auto/margin-auto.css);
+@import url(../blocks/hover/hover.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+  @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
+
+@import url(../blocks/route/route.css);
+@import url(../blocks/route/__title/route__title.css);
+@import url(../blocks/route/__subtitle/route__subtitle.css);
+@import url(../blocks/route/__image/route__image.css);
+@import url(../blocks/route/__caption/route__caption.css);
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__points/intro__points.css);
+@import url(../blocks/intro/__point/intro__point.css);
+
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__item/gallery__item.css);
+
+@import url(../blocks/places/places.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__links/card__links.css);
+@import url(../blocks/card/__subtitle/card__subtitle.css);
+@import url(../blocks/card/__link/card__link.css);
+@import url(../blocks/card/__image/card__image.css);
+  @import url(../blocks/card/__image/_var/card__image_var_kosa.css);
+  @import url(../blocks/card/__image/_var/card__image_var_kolsky.css);
+  @import url(../blocks/card/__image/_var/card__image_var_altai.css);
+  @import url(../blocks/card/__image/_var/card__image_var_baikal.css);
+  @import url(../blocks/card/__image/_var/card__image_var_karelia.css);
+@import url(../blocks/card/__text/card__text.css);
+@import url(../blocks/card/__paragraph/card__paragraph.css);
+
+@import url(../blocks/trains/trains.css);
+@import url(../blocks/trains/__image/trains__image.css);
+@import url(../blocks/trains/__overlay/trains__overlay.css);
+@import url(../blocks/trains/__text/trains__text.css);
+@import url(../blocks/trains/__title/trains__title.css);
+@import url(../blocks/trains/__subtitle/trains__subtitle.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

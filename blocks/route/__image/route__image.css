@@ -1,0 +1,13 @@
+.route__image {
+  margin-bottom: 8px;
+
+  width: 100%;
+  padding-bottom: 62.5%;
+  background: url('../../../images/route-image.jpg') no-repeat center / contain;
+}
+
+@media (max-width: 425px) {
+  .route__image {
+    background: url('../../../images/320/route-image-320.jpg') no-repeat center / contain;
+  }
+}
