@@ -5,26 +5,14 @@
 
 @media (max-width: 1024px) {
   .always-padding {
-    padding: 0;
-    max-width: 928px;
-  }
-}
-
-@media (max-width: 976px) {
-  .always-padding {
     padding: 0 24px;
+    max-width: 928px;
   }
 }
 
 @media (max-width: 768px) {
   .always-padding {
-    padding: 0;
-    max-width: 720px;
-  }
-}
-
-@media (max-width: 752px) {
-  .always-padding {
     padding: 0 16px;
+    max-width: 720px;
   }
 }

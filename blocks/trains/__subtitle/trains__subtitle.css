@@ -1,4 +1,5 @@
 .trains__subtitle {
+  z-index: 1;
   margin: 0;
   max-width: 360px;
 
@@ -9,16 +10,7 @@
 @media (max-width: 700px) {
   .trains__subtitle {
     font-size: 16px;
-    line-height: 120%;
-  }
-}
-
-@media (max-width: 560px) {
-  .trains__subtitle {
-    max-width: 320px;
-
-    font-size: 16px;
-    line-height: 116%;
+    line-height: 118%;
   }
 }
 

@@ -1,4 +1,5 @@
 .trains__title {
+  z-index: 1;
   margin: 0 0 32px 0;
   max-width: 560px;
 
@@ -9,16 +10,7 @@
 
 @media (max-width: 700px) {
   .trains__title {
-    font-size: 60px;
-    line-height: 106%;
-  }
-}
-
-@media (max-width: 560px) {
-  .trains__title {
-    max-width: 425px;
-
-    font-size: 46px;
+    font-size: 8.5vw;
     line-height: 108%;
   }
 }

@@ -9,19 +9,17 @@
 
     <title>Путешествие по России</title>
     <link rel="stylesheet" href="./pages/index.css">
-
-    <base target="_blank">
   </head>
 
   <body class="page">
-    <div class="content margin-auto">
+    <div class="content page__content">
 
                                           <!-- БЛОК HEADER -->
       <header class="header margin-auto always-padding">
         <img class="logo" src="./images/header-logo.svg" alt="логотип сайта">
         <ul class="header__links">
-          <li class="header__lang-link header__lang-link_active">Ru</li>
-          <li class="header__lang-link"><a class="hover" href="#">En</a></li>
+          <li class="header__lang-link header__lang-link_active"><a class="header__link hover" href="#" target="_blank">Ru</a></li>
+          <li class="header__lang-link"><a class="header__link hover" href="#" target="_blank">En</a></li>
         </ul>
       </header>
 
@@ -32,9 +30,11 @@
         <section class="route margin-auto">
 
           <h1 class="route__title">Путешествия по&nbsp;России</h1>
-          <p class="route__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-          <div class="route__image"></div>
-          <p class="route__caption">ваша полка — верхняя</p>
+          <p class="route__subtitle">Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.</p>
+          <figure class="route__figure">
+            <img class="route__image" src="./images/route-image.jpg" alt="маршрут путешествия по россии">
+            <figcaption class="route__caption">ваша полка — верхняя</figcaption>
+          </figure>
 
         </section>
 
@@ -60,7 +60,7 @@
         </section>
 
                                           <!-- Блок gallery -->
-        <div class="gallery margin-auto always-padding">
+        <section class="gallery margin-auto always-padding">
           <img class="gallery__item" src="./images/gallery-train.jpg" alt="фото из поезда">
           <img class="gallery__item" src="./images/gallery-atharva-tulsi.jpg" alt="фото атхарва тулси">
           <img class="gallery__item" src="./images/gallery-tuman.jpg" alt="фото тумана">
@@ -73,18 +73,18 @@
           <img class="gallery__item" src="./images/gallery-kamchatka-2.jpg" alt="фото камчатки">
           <img class="gallery__item" src="./images/gallery-baikal-2.jpg" alt="фото байкала">
           <img class="gallery__item" src="./images/gallery-ergaki.jpg" alt="фото егараков">
-        </div>
+        </section>
 
                                           <!-- Блок places -->
-        <div class="places margin-auto">
+        <section class="places margin-auto">
 
           <article class="card">
             <h2 class="card__title">Куршская коса</h2>
             <div class="card__links">
               <p class="card__subtitle">URL</p>
-              <a class="card__link hover" href="http://park-kosa.ru">park-kosa.ru</a>
+              <a class="card__link hover" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
             </div>
-            <div class="card__image card__image_var_kosa"></div>
+            <img class="card__image card__image_var_kosa" src="./images/card-kosa.jpg" alt="фото куршской косы">
             <div class="card__text">
               <p class="card__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
                 горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского
@@ -101,9 +101,10 @@
             <div class="card__links">
               <p class="card__subtitle">URL</p>
               <a class="card__link hover"
-                href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
+                href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+                target="_blank">National Geographic</a>
             </div>
-            <div class="card__image card__image_var_kolsky"></div>
+            <img class="card__image card__image_var_kolsky" src="./images/card-kolsky.jpg" alt="фото кольского полуострова">
             <div class="card__text">
               <p class="card__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра,
                 от которой на юг —
@@ -121,9 +122,10 @@
             <h2 class="card__title">Алтай</h2>
             <div class="card__links">
               <p class="card__subtitle">URL</p>
-              <a class="card__link hover" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ">YouTube</a>
+              <a class="card__link hover" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ"
+                target="_blank">YouTube</a>
             </div>
-            <div class="card__image card__image_var_altai"></div>
+            <img class="card__image card__image_var_altai" src="./images/card-altai.jpg" alt="фото алтая">
             <div class="card__text">
               <p class="card__paragraph">Алтай — одно из красивейших мест в России.
                 В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами,
@@ -140,9 +142,10 @@
             <h2 class="card__title">Зимний Байкал</h2>
             <div class="card__links">
               <p class="card__subtitle">URL</p>
-              <a class="card__link hover" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
+              <a class="card__link hover" href="https://vk.com/baikalmile"
+              target="_blank">https://vk.com/baikalmile</a>
             </div>
-            <div class="card__image card__image_var_baikal"></div>
+            <img class="card__image card__image_var_baikal" src="./images/card-baikal.jpg" alt="фото зимнего байкала">
             <div class="card__text">
               <p class="card__paragraph">Всем известен Байкал как крупнейшее озеро
                 в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших
@@ -158,9 +161,9 @@
             <h2 class="card__title">Карелия</h2>
             <div class="card__links">
               <p class="card__subtitle">URL</p>
-              <a class="card__link hover" href="http://vodlozero.ru">http://vodlozero.ru</a>
+              <a class="card__link hover" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru</a>
             </div>
-            <div class="card__image card__image_var_karelia"></div>
+            <img class="card__image card__image_var_karelia" src="./images/card-karelia.jpg" alt="фото карелии">
             <div class="card__text">
               <p class="card__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
                 сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров —
@@ -172,20 +175,20 @@
             </div>
           </article>
 
-        </div>
+        </section>
 
                                           <!-- Блок trains -->
 
         <section class="trains margin-auto">
 
-          <a class="trains__text hover" href="https://stampsy.com/na-elektrichkakh-do-baikala">
-            <h2 class="trains__title">До Байкала «на&nbsp;собаках»</h2>
-            <p class="trains__subtitle">По мотивам учебной темы о Транссибе — путешествие
-            от столицы до Байкала на электричках.</p>
+          <a class="trains__text" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+            <h2 class="trains__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
+            <p class="trains__subtitle">По&nbsp;мотивам учебной темы о&nbsp;Транссибе &mdash;&nbsp;путешествие
+              от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.</p>
           </a>
 
-          <div class="trains__overlay hover"></div>
-          <div class="trains__image"></div>
+          <!-- <div class="trains__overlay hover"></div>
+          <div class="trains__image"></div> -->
 
         </section>
 
@@ -196,11 +199,16 @@
 
         <nav>
           <ul class="footer__links">
-            <li class="footer__link"><a class="hover" href="https://yandex.ru/maps">Карты</a></li>
-            <li class="footer__link"><a class="hover" href="https://yandex.ru/pogoda">Погода</a></li>
-            <li class="footer__link"><a class="hover" href="https://rasp.yandex.ru">Расписание</a></li>
-            <li class="footer__link"><a class="hover" href="https://calendar.yandex.ru">Календарь</a></li>
-            <li class="footer__link"><a class="hover" href="https://travel.yandex.ru">Путешествия</a></li>
+            <li class="footer__link"><a class="hover" href="https://yandex.ru/maps" target="_blank">
+              Карты</a></li>
+            <li class="footer__link"><a class="hover" href="https://yandex.ru/pogoda" target="_blank">
+              Погода</a></li>
+            <li class="footer__link"><a class="hover" href="https://rasp.yandex.ru" target="_blank">
+              Расписание</a></li>
+            <li class="footer__link"><a class="hover" href="https://calendar.yandex.ru" target="_blank">
+              Календарь</a></li>
+            <li class="footer__link"><a class="hover" href="https://travel.yandex.ru"
+              target="_blank">Путешествия</a></li>
           </ul>
         </nav>
 

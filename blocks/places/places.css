@@ -1,7 +1,7 @@
 .places {
   display: flex;
   flex-direction: column;
-  gap: 48px;
+  gap: 80px;
   max-width: 984px;
   padding: 92px 0;
 }
@@ -27,6 +27,7 @@
 
 @media (max-width: 768px) {
   .places {
+    gap: 73px;
     padding: 88px 0 90px;
     max-width: 720px;
   }
@@ -34,6 +35,7 @@
 
 @media (max-width: 500px) {
   .places {
+    gap: 50px;
     padding: 64px 0 66px;
   }
 }

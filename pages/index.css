@@ -2,6 +2,7 @@
 @import url(../vendor/fonts/fonts.css);
 
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/__content/page__content.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/always-padding/always-padding.css);
 @import url(../blocks/margin-auto/margin-auto.css);
@@ -16,6 +17,7 @@
 @import url(../blocks/route/route.css);
 @import url(../blocks/route/__title/route__title.css);
 @import url(../blocks/route/__subtitle/route__subtitle.css);
+@import url(../blocks/route/__figure/route__figure.css);
 @import url(../blocks/route/__image/route__image.css);
 @import url(../blocks/route/__caption/route__caption.css);
 
@@ -44,8 +46,6 @@
 @import url(../blocks/card/__paragraph/card__paragraph.css);
 
 @import url(../blocks/trains/trains.css);
-@import url(../blocks/trains/__image/trains__image.css);
-@import url(../blocks/trains/__overlay/trains__overlay.css);
 @import url(../blocks/trains/__text/trains__text.css);
 @import url(../blocks/trains/__title/trains__title.css);
 @import url(../blocks/trains/__subtitle/trains__subtitle.css);

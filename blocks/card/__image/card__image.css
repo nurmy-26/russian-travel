@@ -1,6 +1,6 @@
 .card__image {
   width: 100%;
-  padding-bottom: 100%;
+  object-fit: cover;
 
   align-self: flex-start;
 }

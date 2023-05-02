@@ -1,9 +1,0 @@
-.card__image_var_karelia {
-  background: url('../../../../images/card-karelia.jpg') no-repeat center / contain;
-}
-
-@media (max-width: 425px) {
-  .card__image_var_karelia {
-    background: url('../../../../images/320/card-karelia-320.jpg') no-repeat center / contain;
-  }
-}

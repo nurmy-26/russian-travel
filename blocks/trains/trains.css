@@ -1,4 +1,30 @@
 .trains {
+  position: relative;
   max-width: 1184px;
-  display: grid;
+  min-height: 740px;
+  background: url('../../images/trains-image.jpg') no-repeat center / cover;
+}
+
+@media (max-width: 1024px) {
+  .trains {
+    min-height: 640px;
+  }
+}
+
+@media (max-width: 768px) {
+  .trains {
+    min-height: 480px;
+  }
+}
+
+@media (max-width: 500px) {
+  .trains {
+    min-height: 350px;
+  }
+}
+
+@media (max-width: 320px) {
+  .trains {
+    min-height: 200px;
+  }
 }

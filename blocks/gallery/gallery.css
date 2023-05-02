@@ -14,15 +14,7 @@
 
 @media (max-width: 768px) {
   .gallery {
-    grid-template: repeat(auto-fit, minmax(264px, 1fr)) / repeat(auto-fit, minmax(352px, 1fr));
     gap: 16px;
-  }
-}
-
-/* Чтобы изображение не растянулось слишком сильно */
-@media (max-width: 751px) {
-  .gallery {
-    grid-template: repeat(auto-fit, minmax(225px, 1fr)) / repeat(auto-fit, minmax(300px, 1fr));
   }
 }
 

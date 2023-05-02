@@ -7,3 +7,15 @@
   text-transform: uppercase;
   align-self: flex-start;
 }
+
+@media (max-width: 768px) {
+  .route__caption {
+    padding-left: 24px;
+  }
+}
+
+@media (max-width: 425px) {
+  .route__caption {
+    padding-left: 18px;
+  }
+}
