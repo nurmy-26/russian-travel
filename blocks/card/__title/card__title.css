@@ -3,20 +3,20 @@
 
   font-weight: 900;
   font-size: 72px;
-  line-height: 106%;
+  line-height: 1.06;
 }
 
 @media (max-width: 840px) {
   .card__title {
     font-size: 60px;
-    line-height: 108%;
+    line-height: 1.08;
   }
 }
 
 @media (max-width: 768px) {
   .card__title {
     font-size: 42px;
-    line-height: 110%;
+    line-height: 1.1;
   }
 }
 
@@ -29,6 +29,6 @@
 @media (max-width: 500px) {
   .card__title {
     font-size: 32px;
-    line-height: 109%;
+    line-height: 1.09;
   }
 }

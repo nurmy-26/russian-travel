@@ -2,13 +2,14 @@
   margin: 0 0 12px 0;
 
   font-size: 12px;
-  line-height: 170%;
+  line-height: 1.7;
   letter-spacing: 2px;
+  text-transform: uppercase;
   color: #aaa;
 }
 
 @media (max-width: 768px) {
   .card__subtitle {
-    line-height: 100%;
+    line-height: 1;
   }
 }

@@ -1,5 +1,6 @@
 .trains {
   position: relative;
+  display: grid;
   max-width: 1184px;
   min-height: 740px;
   background: url('../../images/trains-image.jpg') no-repeat center / cover;
@@ -17,9 +18,16 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 528px) {
   .trains {
-    min-height: 350px;
+    min-height: 330px;
+  }
+}
+
+@media (max-width: 424px) {
+  .trains {
+    min-height: 265px;
+    background: url('../../images/trains-image-320.jpg') no-repeat center / cover;
   }
 }
 
